@@ -21,6 +21,10 @@ Resources:
 
   -Basic Sass tutorial:
    http://sass-lang.com/tutorial.html
+  -Built-in Sass functions:
+   http://sass-lang.com/docs/yardoc/Sass/Script/Functions.html
+  -Chris Coyier's Sass styleguide:
+   http://css-tricks.com/sass-style-guide/
   -SCSS syntax highlighting for Netbeans:
    http://plugins.netbeans.org/plugin/34929/scss-support
   -SCSS syntax highlighting & code completion for Sublime Text & TextMate:

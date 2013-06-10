@@ -1,0 +1,24 @@
+/**
+ * Global variables and imports for your project.
+ */
+
+/**** Variables ****/
+
+// Colors:
+$primary-color: #000;
+$secondary-color: #ddd;
+$tertiary-color: #fff;
+
+/**** Imports ****/
+
+// IMPORTANT: Update the path below to reflect
+// where you've stored the core directory.
+@import "../../core/main";
+
+// Project Imports:
+@import "components/all";
+
+// Suggested Plugin Imports:
+// Uncomment any of the import directives below
+// if you're requiring its plugin in config.rb.
+// @import "breakpoint";
