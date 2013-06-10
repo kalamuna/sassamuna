@@ -13,5 +13,4 @@ might have:
   _typography.scss
   etc.
 
-Add your project-specific files to _base.scss so they'll be imported into the
-main scss file automatically.
+Add your project-specific files to main.scss so they'll be imported automatically.
