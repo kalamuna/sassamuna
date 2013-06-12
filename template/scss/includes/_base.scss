@@ -5,9 +5,24 @@
 /**** Variables ****/
 
 // Colors:
-$primary-color: #000;
+$primary-color: #000; // You can organize hierarchically...
 $secondary-color: #ddd;
 $tertiary-color: #fff;
+$off-white: #fcf9f9; // Or with memorable names...
+$light-blue: #F5FDFD;
+$green: #8CC84B;
+
+// Breakpoints:
+// Note: If you're using the Breakpoint mixin,
+// make sure to use the correct syntax: http://breakpoint-sass.com/
+$break-small: max-width 480px;
+$break-medium: max-width 768px;
+$break-large: max-width 980px;
+
+/**** Vendor Settings ****/
+
+// Breakpoint:
+// $breakpoint-to-ems: true; // Uncomment if you want to convert all pixel breakpoints to ems.
 
 /**** Imports ****/
 
