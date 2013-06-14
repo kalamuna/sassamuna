@@ -19,8 +19,8 @@
 ###################
 css_dir = "css"
 sass_dir = "scss"
-#images_dir = "images"
+images_dir = "images"
 #javascripts_dir = "js"
 output_style = :expanded # Can also be :nested or :compact or :compressed
 relative_assets = true # True to generate relative paths from CSS to assets.
-line_comments = false # Disables debugging comments that display the original location of your selectors.
+line_comments = true # Controls debugging comments that display the original location of your selectors.

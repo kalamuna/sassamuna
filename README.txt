@@ -9,6 +9,13 @@ This project contains the following:
   that can be used across projects, including css components, Sass mixins, and
   Sass functions.
 
+Getting Started:
+
+  -Make sure you've fulfilled the requirements list below.
+  -Copy the contents of the template directory to your project.
+  -In your project, open "scss/includes/_base.scss"
+  -Replace the path in '@import "../../core/main";' with where you've stored the core folder.
+
 Requirements:
 
   To use this project, you'll need to install:
