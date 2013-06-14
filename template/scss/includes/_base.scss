@@ -41,7 +41,7 @@ $legacy-support-for-ie8: true;
 @import "../../core/main";
 
 // Project Imports:
-@import "components/all";
+@import "../components/all";
 
 // Vendor Imports:
 @import "compass";
