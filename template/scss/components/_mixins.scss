@@ -7,5 +7,10 @@
  *   padding: $parameter-2;
  * }
  *
+ * // Then you can include its CSS somewhere.
+ * .some-class {
+ *   @include my-mixin(2em, 5%);
+ * }
+ *
  * More info: http://thesassway.com/intermediate/leveraging-sass-mixins-for-cleaner-code
  */

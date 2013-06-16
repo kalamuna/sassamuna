@@ -11,10 +11,11 @@ This project contains the following:
 
 Getting Started:
 
-  -Make sure you've fulfilled the requirements list below.
+  -Make sure you've fulfilled the requirements listed below.
   -Copy the contents of the template directory to your project.
-  -In your project, open "scss/includes/_base.scss"
-  -Replace the path in '@import "../../core/main";' with where you've stored the core folder.
+  -In your project, open config.rb.
+  -Update the "Loading Core" path with where you've stored the core folder.
+  -Run "compass watch" in your project directory and get started!
 
 Requirements:
 

@@ -8,5 +8,10 @@
  *   @return $result;
  * }
  *
+ * // Then you can use it to compute a value.
+ * .some-class {
+ *   padding: my-function(10px, 15px);
+ * }
+ *
  * More info: http://thesassway.com/advanced/pure-sass-functions
  */

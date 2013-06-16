@@ -1,1 +1,1 @@
-Place images here that you want to use with your Sass code.
+This is where Compass will place generated images, such as sprites.
