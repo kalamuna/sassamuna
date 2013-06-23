@@ -25,14 +25,23 @@ Requirements:
     -Sass (sudo gem install sass)
     -Compass (sudo gem install compass)
 
-Resources:
+Recommended Reading:
 
   -Basic Sass tutorial:
    http://sass-lang.com/tutorial.html
-  -Built-in Sass functions:
-   http://sass-lang.com/docs/yardoc/Sass/Script/Functions.html
   -Chris Coyier's Sass styleguide:
    http://css-tricks.com/sass-style-guide/
+  -Developing With Sass and Chrome DevTools
+   http://net.tutsplus.com/tutorials/html-css-techniques/developing-with-sass-and-chrome-devtools/
+
+Resources:
+
+  -Built-in Sass functions:
+   http://sass-lang.com/docs/yardoc/Sass/Script/Functions.html
+  -Compass Tutorials
+   http://compass-style.org/help/tutorials/
+  -Compass Reference
+   http://compass-style.org/reference/compass/
   -SCSS syntax highlighting for Netbeans:
    http://plugins.netbeans.org/plugin/34929/scss-support
   -SCSS syntax highlighting & code completion for Sublime Text & TextMate:
