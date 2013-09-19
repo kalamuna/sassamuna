@@ -1,14 +1,14 @@
-/*
- * a small mixin for easy use of rem with px as fallback
- * usage: @include x-rem(font-size, 14px)
- * usage: @include x-rem(marign, 0 12px 2 1.2)
- * usage: @include x-rem(padding, 1.5 24px)
- *
- * thanks to Eric Meyer for https://github.com/ericam/susy
- * and Hans Christian Reinl for http://drublic.de/blog/rem-fallback-sass-less/
- *
- * SOURCE: https://gist.github.com/webgefrickel/4530526
- */
+////////////////////////
+// a small mixin for easy use of rem with px as fallback
+// usage: @include x-rem(font-size, 14px)
+// usage: @include x-rem(marign, 0 12px 2 1.2)
+// usage: @include x-rem(padding, 1.5 24px)
+//
+// thanks to Eric Meyer for https://github.com/ericam/susy
+// and Hans Christian Reinl for http://drublic.de/blog/rem-fallback-sass-less/
+//
+// SOURCE: https://gist.github.com/webgefrickel/4530526
+////////////////////////
 @mixin x-rem($property, $values) {
   // Create a couple of empty lists as output buffers.
   $base-font-size: 16px; // should be consistent with your html/body font-size
@@ -31,7 +31,7 @@
       $rem-values: join($rem-values, #{$new-rem-value}rem);
     } @else {
       // unitless value - use those directly as rem and calculate the px-fallback
-      $px-values: join($px-values, round($value * $base-font-size));
+      $px-values: join($px-values, round($value// $base-font-size));
       $rem-values: join($rem-values, #{$value}rem);
     }
   }

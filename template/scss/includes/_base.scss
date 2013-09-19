@@ -1,8 +1,10 @@
-/**
- * Global variables and imports for your project.
- */
+////////////////////////
+// Global variables and imports for your project.
+////////////////////////
 
-/**** Variables ****/
+////////////////////////
+// Variables:
+////////////////////////
 
 // Colors:
 $primary-color: #000; // You can organize hierarchically...
@@ -24,7 +26,9 @@ $break-small: max-width 480px;
 $break-medium: max-width 768px;
 $break-large: max-width 980px;
 
-/**** Vendor Settings ****/
+////////////////////////
+// Vendor Settings:
+////////////////////////
 
 // Legacy IE Support For Compass:
 $legacy-support-for-ie6: false;
@@ -34,10 +38,9 @@ $legacy-support-for-ie8: true;
 // Breakpoint:
 // $breakpoint-to-ems: true; // Uncomment if you want to convert all pixel breakpoints to ems.
 
-/**** Imports ****/
-
-// Project Imports:
-@import "../components/all";
+////////////////////////
+// Imports:
+////////////////////////
 
 // Vendor Imports:
 @import "compass";
@@ -47,3 +50,6 @@ $legacy-support-for-ie8: true;
 // if you're requiring its plugin in config.rb.
 // @import "breakpoint";
 // @import "toolkit";
+
+// Project Imports:
+@import "../components/all";
