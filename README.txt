@@ -1,3 +1,6 @@
+
+PLEASE NOTE THIS PROJECT IS DEPRECATED.
+
 This project contains the following:
 
   -template: This is the directory whose contents you copy to your project and
